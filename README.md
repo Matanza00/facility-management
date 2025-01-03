@@ -3,6 +3,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 First, run the development server:
+MySQL or XAMPP.
+Connect it with the server using .env file . 
+Upload your link for the database url and it's authentications.
+
+Open Visual Code
+in Terminal run following commands
+
+yarn prisma db pull
+yarn prisma generate
+yarn prisma migrate dev
+yarn
+yarn dev
+yarn start
 
 ```bash
 npm run dev
@@ -37,3 +50,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ##Credits
 Usman Nadeem
+Adeel
